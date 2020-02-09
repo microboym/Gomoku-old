@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA5B4C4B23E168220064C440 /* BoardCaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B4C4A23E168220064C440 /* BoardCaseView.swift */; };
 		EAAF7A0A23E0512400485D2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF7A0923E0512400485D2F /* AppDelegate.swift */; };
 		EAAF7A0C23E0512400485D2F /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF7A0B23E0512400485D2F /* Document.swift */; };
-		EAAF7A0E23E0512400485D2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF7A0D23E0512400485D2F /* ContentView.swift */; };
 		EAAF7A1023E0512600485D2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAAF7A0F23E0512600485D2F /* Assets.xcassets */; };
 		EAAF7A1323E0512600485D2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAAF7A1223E0512600485D2F /* Preview Assets.xcassets */; };
 		EAAF7A1623E0512600485D2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAAF7A1423E0512600485D2F /* Main.storyboard */; };
 		EAAF7A2223E0512600485D2F /* GomokuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF7A2123E0512600485D2F /* GomokuTests.swift */; };
 		EAAF7A2D23E0512600485D2F /* GomokuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF7A2C23E0512600485D2F /* GomokuUITests.swift */; };
+		EAAF7A3E23E0515700485D2F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF7A3B23E0515700485D2F /* GameView.swift */; };
+		EAAF7A4223E0518F00485D2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF7A4123E0518F00485D2F /* ContentView.swift */; };
+		EAAF7A4423E0521700485D2F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF7A4323E0521700485D2F /* Game.swift */; };
+		EAB23B5323EFC27D00015AC0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAB23B5223EFC27D00015AC0 /* Info.plist */; };
+		EAE3313323E599560080D53C /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE3313223E599560080D53C /* GameTests.swift */; };
+		EAE331CA23EA561F0080D53C /* CrossParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE331C923EA561F0080D53C /* CrossParameters.swift */; };
+		EAE331CC23EA94FD0080D53C /* Game+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE331CB23EA94FD0080D53C /* Game+Codable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA5B4C4A23E168220064C440 /* BoardCaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCaseView.swift; sourceTree = "<group>"; };
 		EAAF7A0623E0512400485D2F /* Gomoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gomoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAAF7A0923E0512400485D2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAAF7A0B23E0512400485D2F /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
-		EAAF7A0D23E0512400485D2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EAAF7A0F23E0512600485D2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAAF7A1223E0512600485D2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EAAF7A1523E0512600485D2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EAAF7A1723E0512600485D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAAF7A1823E0512600485D2F /* Gomoku.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gomoku.entitlements; sourceTree = "<group>"; };
 		EAAF7A1D23E0512600485D2F /* GomokuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GomokuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAAF7A2123E0512600485D2F /* GomokuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GomokuTests.swift; sourceTree = "<group>"; };
@@ -50,6 +56,13 @@
 		EAAF7A2823E0512600485D2F /* GomokuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GomokuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAAF7A2C23E0512600485D2F /* GomokuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GomokuUITests.swift; sourceTree = "<group>"; };
 		EAAF7A2E23E0512600485D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAAF7A3B23E0515700485D2F /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		EAAF7A4123E0518F00485D2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EAAF7A4323E0521700485D2F /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		EAB23B5223EFC27D00015AC0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE3313223E599560080D53C /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
+		EAE331C923EA561F0080D53C /* CrossParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossParameters.swift; sourceTree = "<group>"; };
+		EAE331CB23EA94FD0080D53C /* Game+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+Codable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +113,14 @@
 		EAAF7A0823E0512400485D2F /* Gomoku */ = {
 			isa = PBXGroup;
 			children = (
+				EAAF7A4023E0518300485D2F /* View */,
 				EAAF7A0923E0512400485D2F /* AppDelegate.swift */,
 				EAAF7A0B23E0512400485D2F /* Document.swift */,
-				EAAF7A0D23E0512400485D2F /* ContentView.swift */,
+				EAAF7A4323E0521700485D2F /* Game.swift */,
+				EAE331CB23EA94FD0080D53C /* Game+Codable.swift */,
 				EAAF7A0F23E0512600485D2F /* Assets.xcassets */,
+				EAB23B5223EFC27D00015AC0 /* Info.plist */,
 				EAAF7A1423E0512600485D2F /* Main.storyboard */,
-				EAAF7A1723E0512600485D2F /* Info.plist */,
 				EAAF7A1823E0512600485D2F /* Gomoku.entitlements */,
 				EAAF7A1123E0512600485D2F /* Preview Content */,
 			);
@@ -124,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				EAAF7A2123E0512600485D2F /* GomokuTests.swift */,
+				EAE3313223E599560080D53C /* GameTests.swift */,
 				EAAF7A2323E0512600485D2F /* Info.plist */,
 			);
 			path = GomokuTests;
@@ -136,6 +152,17 @@
 				EAAF7A2E23E0512600485D2F /* Info.plist */,
 			);
 			path = GomokuUITests;
+			sourceTree = "<group>";
+		};
+		EAAF7A4023E0518300485D2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EAAF7A4123E0518F00485D2F /* ContentView.swift */,
+				EAAF7A3B23E0515700485D2F /* GameView.swift */,
+				EA5B4C4A23E168220064C440 /* BoardCaseView.swift */,
+				EAE331C923EA561F0080D53C /* CrossParameters.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB23B5323EFC27D00015AC0 /* Info.plist in Resources */,
 				EAAF7A1623E0512600485D2F /* Main.storyboard in Resources */,
 				EAAF7A1323E0512600485D2F /* Preview Assets.xcassets in Resources */,
 				EAAF7A1023E0512600485D2F /* Assets.xcassets in Resources */,
@@ -270,8 +298,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAAF7A0C23E0512400485D2F /* Document.swift in Sources */,
+				EAE331CC23EA94FD0080D53C /* Game+Codable.swift in Sources */,
+				EAE331CA23EA561F0080D53C /* CrossParameters.swift in Sources */,
 				EAAF7A0A23E0512400485D2F /* AppDelegate.swift in Sources */,
-				EAAF7A0E23E0512400485D2F /* ContentView.swift in Sources */,
+				EAAF7A4223E0518F00485D2F /* ContentView.swift in Sources */,
+				EA5B4C4B23E168220064C440 /* BoardCaseView.swift in Sources */,
+				EAAF7A4423E0521700485D2F /* Game.swift in Sources */,
+				EAAF7A3E23E0515700485D2F /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAAF7A2223E0512600485D2F /* GomokuTests.swift in Sources */,
+				EAE3313323E599560080D53C /* GameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
